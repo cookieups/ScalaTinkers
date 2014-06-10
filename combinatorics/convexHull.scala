@@ -1,4 +1,7 @@
-// This program performs a graham scan to order the points, and then iterates counter clockwise through each, making sure that it takes no right turns. If it takes a right turn, it reverses until it can continue without taking a right turn. This ensures convexity. 
+// This program performs a graham scan to order the points, 
+//and then iterates counter clockwise through each, making sure that it 
+//takes no right turns. If it takes a right turn, it reverses until it 
+//can continue without taking a right turn. This ensures convexity. 
 object Solution{
 //Computes the sin of the angle between two vectors
 //To compare angles between three points for the grahamScan when the cross product = 0
